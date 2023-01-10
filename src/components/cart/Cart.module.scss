@@ -1,0 +1,20 @@
+@import "../../_colors";
+.cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 1rem;
+	background: $cart-color;
+	border-radius: 20px;
+	margin: 2rem;
+	cursor: pointer;
+	.quantity {
+		padding: 0.5rem;
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: $background-color;
+		text-align: center;
+		margin-top: 0.3rem;
+	}
+}
