@@ -1,10 +1,14 @@
 import "./App.scss";
-import ItemCard from "./components/item-card/ItemCard";
+import Cart from "./components/cart/Cart";
+import ItemList from "./components/item-list/ItemList";
 
 function App() {
 	return (
 		<div className="App">
-			<ItemCard />
+			<div className="cart-area">
+				<Cart />
+			</div>
+			<ItemList />
 		</div>
 	);
 }
